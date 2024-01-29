@@ -1,5 +1,5 @@
 import { PlayerCard } from './PlayerCard';
-import { PlayerDeck } from './Deck';
+import { Deck } from './Deck';
 import { DiscardPile } from './DiscardPile';
 import { PlayerHand } from '@/models/PlayerHand';
 export class Player {
@@ -11,9 +11,9 @@ export class Player {
     engagedMinions: VillainCard[] = [];
     currentHand: PlayerHand = new PlayerHand(this, []);
     currentDiscardPile: DiscardPile = new DiscardPile(this, []);
-    currentDeck: PlayerDeck;
+    currentDeck: Deck;
 
-    constructor(deck: PlayerDeck) {
+    constructor(deck: Deck) {
         this.currentDeck = deck;
     }
 }

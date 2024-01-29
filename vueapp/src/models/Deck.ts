@@ -2,21 +2,23 @@ import { Player } from '@/models/Player';
 import { CardService } from '@/services/CardService';
 import { PlayerCard } from '@/models/PlayerCard';
 import { Villain } from '@/models/Villain'
-export class PlayerDeck {
+
+type Card = PlayerCard | VillainCard;
+export class Deck {
 
     owner: Player | Villain;
-    cards: PlayerCard[] | VillainCard[];
+    cards: Card[];
 
-    constructor(player: Player, cardIds: string[]) {
-        this.owner = player;
+    constructor(owner: Player | Villain, cardIds: string[]) {
+        this.owner = owner;
 
         const cardService = new CardService();
         this.cards = cardIds.map(cardId => cardService.createCardFromId(cardId));
     }
 
-    drawCardsFromDeck(amount: number): PlayerCard[] | VillainCard[] {
+    drawCardsFromDeck(amount: number): (PlayerCard | VillainCard)[] {
 
-        const cardsToDraw: PlayerCard[] = [];
+        const cardsToDraw: (PlayerCard | VillainCard)[] = [];
 
         while (amount > 0) {
             const drawnCard = this.cards.pop();

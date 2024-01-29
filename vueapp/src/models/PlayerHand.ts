@@ -18,7 +18,7 @@ export class PlayerHand {
 
     mulliganCards(cardsToMulligan: PlayerCard[]): void {
         const cardsToDraw = this.player.currentDeck.drawCardsFromDeck(cardsToMulligan.length);
-        this.addCardsToHand(cardsToDraw);
+        this.addCardsToHand(cardsToDraw as PlayerCard[]);
 
         this.sendToDiscardPile(cardsToMulligan);
     }

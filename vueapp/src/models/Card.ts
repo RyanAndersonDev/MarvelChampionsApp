@@ -1,10 +1,3 @@
-enum CardType {
-    Event,
-    Upgrade,
-    Support,
-    Ally,
-    Resource
-}
 class Card {
 
     id: string;
@@ -14,7 +7,7 @@ class Card {
     effectText: string;
     effects: Object[];
     flavorText: string;
-    cardType: CardType;
+    cardType: string;
     typeMetaData: Object;
     isExhausted: boolean = false;
     isAttached: boolean = false;
@@ -27,7 +20,7 @@ class Card {
         effectText: string,
         effects: Object[],
         flavorText: string,
-        cardType: CardType,
+        cardType: string,
         typeMetaData: Object
     ) {
         this.id = id;

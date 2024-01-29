@@ -1,16 +1,19 @@
 import { Player } from '@/models/Player';
 import { PlayerCard } from '@/models/PlayerCard';
+import type { Villain } from './Villain';
+
+type Card = PlayerCard | VillainCard;
 export class DiscardPile {
 
-    player: Player;
-    cards: PlayerCard[];
+    owner: Player | Villain;
+    cards: Card[];
 
-    constructor(player: Player, cards: PlayerCard[]) {
-        this.player = player;
+    constructor(owner: Player | Villain, cards: Card[]) {
+        this.owner = owner;
         this.cards = cards;
     }
 
-    addCardsToDiscardPile(cardsToDiscard: PlayerCard[]): void {
+    addCardsToDiscardPile(cardsToDiscard: Card[]): void {
         cardsToDiscard.forEach(card => {
             this.cards.push(card);
         })
@@ -18,14 +21,14 @@ export class DiscardPile {
 
     shuffleDiscardPileIntoDeck(discardPile: DiscardPile): void {
         this.cards = discardPile.cards;
-        this.player.currentDeck.shuffleDeck();
+        this.owner.currentDeck.shuffleDeck();
     }
 
-    searchDiscardPileById(cardId: string): PlayerCard | undefined {
+    searchDiscardPileById(cardId: string): Card | undefined {
         return this.cards.find(card => card.id === cardId);
     }
 
-    searchDiscardPileByName(cardName: string): PlayerCard | undefined {
+    searchDiscardPileByName(cardName: string): Card | undefined {
         return this.cards.find(card => card.name === cardName);
     }
 }
