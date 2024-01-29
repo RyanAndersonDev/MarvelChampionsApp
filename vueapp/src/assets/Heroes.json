@@ -1,0 +1,95 @@
+{
+  "1": {
+    "id": "1",
+    "hitPointsMax": 10,
+    "alterEgo": {
+      "cardArt": "",
+      "name": "Peter Parker",
+      "handSize": 6,
+      "rec": 3,
+      "tags": [
+        "Genius"
+      ],
+      "effectText": "Scientist - Resource: Generate a mental resource. (Limit once per round.)",
+      "flavorText": "Right now, I'd trade the whole Spider-Man bit for a rocking chair a good book."
+    },
+    "hero": {
+      "cardArt": "",
+      "name": "Spider-Man",
+      "handSize": 5,
+      "thw": 1,
+      "atk": 2,
+      "def": 3,
+      "tags": [
+        "Avenger"
+      ],
+      "effectText": "Spider-Sense - Interrupt: When you villain initiates an attack against you, draw 1 card.",
+      "flavorText": "Just your friendly neighborhood Spider-Man!",
+      "heroCards": [
+        "1",
+        "2",
+        "2",
+        "3",
+        "3",
+        "4",
+        "4",
+        "4",
+        "5",
+        "6",
+        "6",
+        "7",
+        "7",
+        "8",
+        "8"
+      ]
+    }
+  },
+
+  "2": {
+    "id": "2",
+    "hitPointsMax": 12,
+    "alterEgo": {
+      "cardArt": "",
+      "name": "Carol Danvers",
+      "handSize": 6,
+      "rec": 4,
+      "tags": [
+        "S.H.I.E.L.D",
+        "Soldier"
+      ],
+      "effectText": "Commander - Action: Choose a player to draw 1 card. (Limit once per round.)",
+      "flavorText": "It's my job to protect the Earch and everyone on it."
+    },
+    "hero": {
+      "cardArt": "",
+      "name": "Captain Marvel",
+      "handSize": 5,
+      "thw": 2,
+      "atk": 2,
+      "def": 1,
+      "tags": [
+        "Avenger",
+        "Soldier"
+      ],
+      "effectText": "Rechannel - Action: Spend an energy resource and heal 1 damage from Captain Marvel -> draw 1 card. (Limit once per round.)",
+      "flavorText": "I never quit.",
+      "heroCards": [
+        "9",
+        "10",
+        "10",
+        "10",
+        "11",
+        "11",
+        "11",
+        "12",
+        "12",
+        "13",
+        "14",
+        "15",
+        "15",
+        "16",
+        "16"
+      ]
+    }
+  }
+}

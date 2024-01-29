@@ -1,0 +1,338 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Advance",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 0, 
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "2": {
+    "id": "2",
+    "name": "Assault",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 0,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "3": {
+    "id": "3",
+    "name": "Caught Off Guard",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 1,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "4": {
+    "id": "4",
+    "name": "Gang-Up",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 1,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "5": {
+    "id": "5",
+    "name": "Shadow of the Past",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "6": {
+    "id": "6",
+    "name": "Exhaustion",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "7": {
+    "id": "7",
+    "name": "Masterplan",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "8": {
+    "id": "8",
+    "name": "Under Fire",
+    "villainId": "-1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 3,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "9": {
+    "id": "9",
+    "name": "Armored Rhino Suit",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+      "Armor"
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Attachment",
+    "boostIcons": 0,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "10": {
+    "id": "10",
+    "name": "Charge",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Attachment",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "11": {
+    "id": "11",
+    "name": "Enhanced Ivory Horn",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+      "Weapon"
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Attachment",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "12": {
+    "id": "12",
+    "name": "Hydra Mercenary",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+      "Hydra"
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Minion",
+    "boostIcons": 1,
+    "starIcons": 0,
+    "typeMetaData": {
+      "sch": 0,
+      "atk": 1,
+      "hitPoints": 3
+    }
+  },
+  "13": {
+    "id": "13",
+    "name": "Sandman",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+      "Criminal",
+      "Elite"
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Minion",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+      "sch": 2,
+      "atk": 3,
+      "hitPoints": 4
+    }
+  },
+  "14": {
+    "id": "14",
+    "name": "Shocker",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+      "Criminal"
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Minion",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+      "sch": 1,
+      "atk": 2,
+      "hitPoints": 3
+    }
+  },
+  "15": {
+    "id": "15",
+    "name": "Hard To Keep Down",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 0,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "16": {
+    "id": "16",
+    "name": "I'm Tough",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 0,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "17": {
+    "id": "17",
+    "name": "Stampede",
+    "villainId": "1",
+    "cardArt": "",
+    "tags": [
+
+    ],
+    "ability": "",
+    "flavorText": "",
+    "cardType": "Treachery",
+    "boostIcons": 1,
+    "starIcons": 0,
+    "typeMetaData": {
+
+    }
+  },
+  "18": {
+    "id": "18",
+    "name": "Breakin' & Takin'",
+    "villainId": "1",
+    "cardArt": "",
+    "flavorText": "",
+    "cardType": "Side Scheme",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+      "icons": [
+        "Hazard"
+      ],
+      "keywords": [
+        "When Revealed"
+      ],
+      "threatThreshold": 2,
+      "isPerPlayer": true
+    }
+  },
+  "19": {
+    "id": "19",
+    "name": "Crowd Control",
+    "villainId": "1",
+    "cardArt": "",
+    "flavorText": "",
+    "cardType": "Side Scheme",
+    "boostIcons": 2,
+    "starIcons": 0,
+    "typeMetaData": {
+      "icons": [
+        "Crisis"
+      ],
+      "keywords": [
+
+      ],
+      "threatThreshold": 2,
+      "isPerPlayer": true
+    }
+  }
+}

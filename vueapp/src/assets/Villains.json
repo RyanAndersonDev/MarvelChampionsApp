@@ -1,0 +1,66 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Rhino",
+    "villainCards": [
+      "9",
+      "10",
+      "10",
+      "11",
+      "12",
+      "12",
+      "13",
+      "14",
+      "15",
+      "15",
+      "16",
+      "16",
+      "17",
+      "17",
+      "17",
+      "18",
+      "19"
+    ],
+    "phases": [
+      {
+        "id": "1",
+        "phaseNumber": 1,
+        "cardArt": "",
+        "hitPoints": 14,
+        "sch": 1,
+        "atk": 2,
+        "tags": [
+          "Brute",
+          "Criminal"
+        ],
+        "abilities": ""
+      },
+      {
+        "id": "2",
+        "phaseNumber": 2,
+        "cardArt": "",
+        "hitPoints": 15,
+        "sch": 1,
+        "atk": 3,
+        "tags": [
+          "Brute",
+          "Criminal"
+        ],
+        "abilities": ""
+      },
+      {
+        "id": "3",
+        "phaseNumber": 3,
+        "cardArt": "",
+        "hitPoints": 16,
+        "sch": 1,
+        "atk": 4,
+        "tags": [
+          "Brute",
+          "Criminal"
+        ],
+        "abilities": ""
+      }
+    ]
+  }
+}
